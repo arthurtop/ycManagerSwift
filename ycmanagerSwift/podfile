@@ -6,16 +6,40 @@ inhibit_all_warnings!
 target 'ycmanagerSwift' do
   use_frameworks!
 
-    pod 'Alamofire'
+    pod 'Alamofire'  #网络请求
+    pod 'Moya'
+    pod 'ReachabilitySwift'
+    
+    pod 'Hue'   #集成color功用的库，使用的是hex颜色值
+    pod 'Log'  #强有力的日志框架
+    pod 'FoldingCell'  #cell 折叠效果
+    
+   # pod 'ExSwift'   #swift 包含一组标准类型和类的Swift扩展。
+   # pod 'EZSwiftExtensions'  #对Swift标准库， Foundation， UIKit 提供了很多高级扩展函数
+    pod 'RxSwift'   #函数式
+    pod 'CryptoSwift'  #swift加密库, 支持md5,sha1,sha224,sha256...
+    
     
     pod 'SwiftyJSON'
-    
     pod 'HandyJSON'
     
     pod 'Kingfisher'
-    
     pod 'SnapKit'
     
-    pod 'IQKeyboardManagerSwift'
-
+    pod 'IQKeyboardManagerSwift'  #键盘
+    pod 'NVActivityIndicatorView' #很多漂亮的加载指示器
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 end
